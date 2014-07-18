@@ -1,0 +1,21 @@
+
+/**
+ * Xamarin logo.
+ */
+
+.logo[data-logo="Xamarin"] {
+  width: 0;
+}
+
+.logo[data-logo="Xamarin"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Xamarin"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Xamarin"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
